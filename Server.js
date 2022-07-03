@@ -12,7 +12,7 @@ initial()
 connectDb ()
 app.use(cors()) 
 app.use (express.json ()) ;
-app.use ('https://travel-ag.herokuapp.com//' , auth)
+app.use ('https://travel-ag.herokuapp.com/' , auth)
 
 
 
