@@ -2,7 +2,7 @@
   "name": "travel-agency",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "dev": "concurrently \"nodemon Server.js\" \"cd forclient && npm start",
     "start" : "node server.js"
