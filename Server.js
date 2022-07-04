@@ -64,7 +64,7 @@ async function  initial  () {
     };
   });
 }
-const port = process.env.PORT || 4000
+const port = process.env.PORT || 5000
 app.listen (PORT, (err) => {
     err ? console.log (err) : console.log (`the app is running on port : ${PORT}`)
 }) 
