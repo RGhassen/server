@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "concurrently \"nodemon Server.js\" \"cd forclient && npm start",
-    "start" : "nodemon server.js"
+    "start" : "node server.js"
   },
   "author": "RGS",
   "license": "ISC",
